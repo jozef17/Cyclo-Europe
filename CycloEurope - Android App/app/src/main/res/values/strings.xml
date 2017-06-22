@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CycloEurope</string>
+    <string name="access_token"></string>
+    <string name="locate">My Location</string>
+
+    <string name="shop">Bike Shop</string>
+    <string name="glass">Refreshments</string>
+    <string name="sleep">Accommodation</string>
+
+    <string name="single_way">Closest CycleWay</string>
+    <string name="connected_ways">Include connected CycleWays</string>
+
+    <string name="Error_server">Error: Server not found</string>
+</resources>

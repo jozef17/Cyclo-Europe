@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tool"
+    tools:context="sk.blazicek.cycloeurope.MainActivity">
+
+    <item
+        android:id="@+id/locate"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_action_place"
+        android:title="@string/locate"
+        app:showAsAction="always"/>
+
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/shop"
+        android:checkable="true"
+        android:title="@string/shop"/>
+    <item
+        android:orderInCategory="3"
+        android:id="@+id/glass"
+        android:checkable="true"
+        app:showAsAction="never"
+        android:title="@string/glass"/>
+    <item
+        android:orderInCategory="4"
+        android:id="@+id/sleep"
+        android:checkable="true"
+        android:title="@string/sleep"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/single_way"
+            android:orderInCategory="10"
+            android:title="@string/single_way"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/connected_ways"
+            android:orderInCategory="11"
+            android:title="@string/connected_ways"
+            app:showAsAction="never" />
+    </group>
+</menu>
